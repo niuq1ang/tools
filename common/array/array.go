@@ -1,4 +1,4 @@
-package utils
+package array
 
 func UniqueNoNullSlice(slice ...string) (newSlice []string) {
 	found := make(map[string]bool)
@@ -79,26 +79,4 @@ func StringArrayToSet(slice []string) map[string]bool {
 		result[s] = true
 	}
 	return result
-}
-
-type Block struct {
-	Since int
-	End   int
-}
-
-func NewBlocks(length int, blockSize int) []*Block {
-	blocks := []*Block{}
-	if blockSize <= 0 {
-		return blocks
-	}
-	since := 0
-	for i := 0; i < length; {
-		i += blockSize
-		if i > length {
-			i = length
-		}
-		blocks = append(blocks, &Block{Since: since, End: i})
-		since = i
-	}
-	return blocks
 }
