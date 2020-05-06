@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/CodesInvoker/tools/apitest"
+	"github.com/yimadai/tools/apitest"
 )
 
 func TestActivityDraftList(t *testing.T) {
@@ -13,7 +13,7 @@ func TestActivityDraftList(t *testing.T) {
 	{
 		activityDrafts(
 			filter:{
-				chartUUID_in:["L3YLH7WC"]
+				chartUUID_in:["%s"]
 			})
 			{
 			uuid
@@ -38,7 +38,7 @@ func TestActivityDraftList(t *testing.T) {
 			}
 	}
 	`
-
+	query = fmt.Sprintf(query, activityChartUUID)
 	body := apitest.BuildGraphqlQuery("query", query)
 	err, ret := apitest.DoPostRequest(path, body)
 	if err != nil {
@@ -55,12 +55,12 @@ func TestAddActivityDraft(t *testing.T) {
 		addActivityDraft(
 			name: "test_activity",
 			item_type: "activity_draft",
-			chart_uuid: "TEJwQRGz",
+			chart_uuid: "%s",
 			type: "ppm_task",
 			progress: 8000000,
 			start_time: 12000000,
 			end_time: 1786793599,
-			parent: "LtEFxUiu",
+			parent: "",
 			assign: "%s"
 		)
 		{
@@ -75,7 +75,7 @@ func TestAddActivityDraft(t *testing.T) {
 		}
 	}
 	`
-	query = fmt.Sprintf(query, apitest.C.UserUUID)
+	query = fmt.Sprintf(query, activityChartUUID, apitest.C.UserUUID)
 	body := apitest.BuildGraphqlQuery("mutation", query)
 	err, ret := apitest.DoPostRequest(path, body)
 	if err != nil {
@@ -89,7 +89,7 @@ func TestUpdateActivityDraft(t *testing.T) {
 	query := `
 	{
 		updateActivityDraft(
-			key: "activity_draft-GiHCasX6"
+			key: "activity_draft-Q1iBfA5o"
 			progress:100
 			start_time: 100000000,
 		)
@@ -122,7 +122,7 @@ func TestDeleteActivityDraft(t *testing.T) {
 	query := `
 	{
 		deleteActivityDraft(
-			key: "activity_draft-RjvuuTza",
+			key: "activity_draft-Q1iBfA5o",
 		)
 		{
 			key

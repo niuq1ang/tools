@@ -8,7 +8,7 @@ var (
 		TeamUUID: "K4Cthi6p",
 		OrgUUID:  "AytnNdkN",
 		UserUUID: "JhWrCvGN",
-		Token:    "j3iHMEvhse6ytPjrR8dxmHP49mFaYZMiPhRAKNLB6bRRpSYbsd8Ah4ixZEaZLVkF",
+		Token:    "Wqmz4hoypb54fQhmscNaxcZN1ACpYqzC7qbirP64Y4Ihw2wgRrPTF8YgtCddPbhd",
 	}
 )
 

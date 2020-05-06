@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/CodesInvoker/tools/apitest"
+	"github.com/yimadai/tools/apitest"
 	. "github.com/bangwork/bang-api/tests/utils"
 
 	"testing"

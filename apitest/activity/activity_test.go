@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/CodesInvoker/tools/apitest"
+	"github.com/yimadai/tools/apitest"
 )
 
 func TestActivityList(t *testing.T) {
@@ -14,7 +14,7 @@ func TestActivityList(t *testing.T) {
 	{
 		activities(
 			filter:{
-				chartUUID_in:["TEJwQRGz"]
+				chartUUID_in:["%s"]
 			})
 			{
 			key
@@ -35,6 +35,7 @@ func TestActivityList(t *testing.T) {
 
 	}
 	`
+	query = fmt.Sprintf(query, activityChartUUID)
 	body := apitest.BuildGraphqlQuery("query", query)
 	err, ret := apitest.DoPostRequest(path, body)
 	if err != nil {
@@ -48,8 +49,8 @@ func TestUpateActivity(t *testing.T) {
 	mutation := `
 		{
 			updateActivity(
-				key: "activity-T5Nkx9kW",
-				progress: 3300000,
+				key: "activity-Q1iBfA5o",
+				progress: 3300001,
 				name: "new name"
 			)
 			{

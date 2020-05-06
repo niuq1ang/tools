@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/CodesInvoker/tools/apitest"
+	"github.com/yimadai/tools/apitest"
 )
 
 func TestActivityChartPersonalConfigList(t *testing.T) {

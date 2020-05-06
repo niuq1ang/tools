@@ -2,10 +2,9 @@ package activity
 
 import (
 	"fmt"
-	"strings"
 	"testing"
 
-	"github.com/CodesInvoker/tools/apitest"
+	"github.com/yimadai/tools/apitest"
 )
 
 func TestActivityReleaseList(t *testing.T) {
@@ -14,30 +13,22 @@ func TestActivityReleaseList(t *testing.T) {
 	{
 		activityReleases(
 			filter:{
-				chartUUID_in:[\"Fx47D3aw\"]
+				chartUUID_in:["%s"]
 			})
 			{
 				key
 				name 
-				pushTime
-				pushStatus
-				pushUser{
+				updateTime
+				publishStatus
+				updateUser{
 					uuid
 					name
 				}
 			}
 	}
 	`
-	query = strings.Replace(query, "\n", "\\n", -1)
-	query = strings.Replace(query, "\t", "", -1)
-	fmt.Println(query)
-	body := `
-	{
-		"query": "%s"
-	}
-	`
-	body = fmt.Sprintf(body, query)
-
+	query = fmt.Sprintf(query, activityChartUUID)
+	body := apitest.BuildGraphqlQuery("query", query)
 	err, ret := apitest.DoPostRequest(path, body)
 	if err != nil {
 		t.Fatal(err)
@@ -61,18 +52,7 @@ func TestAddActivityRelease(t *testing.T) {
 		}
 	}
 	`
-	mutation = strings.Replace(mutation, "\n", "\\n", -1)
-	mutation = strings.Replace(mutation, "\t", "", -1)
-	mutation = strings.Replace(mutation, "\"", "\\\"", -1)
-
-	body := `
-	{
-		"query": "mutation %s"
-	}
-	`
-	body = fmt.Sprintf(body, mutation)
-	fmt.Println(body)
-
+	body := apitest.BuildGraphqlQuery("mutation", mutation)
 	err, ret := apitest.DoPostRequest(path, body)
 	if err != nil {
 		t.Fatal(err)
@@ -96,18 +76,53 @@ func TestUpdateActivityRelease(t *testing.T) {
 		}
 	}
 	`
-	mutation = strings.Replace(mutation, "\n", "\\n", -1)
-	mutation = strings.Replace(mutation, "\t", "", -1)
-	mutation = strings.Replace(mutation, "\"", "\\\"", -1)
+	body := apitest.BuildGraphqlQuery("mutation", mutation)
+	err, ret := apitest.DoPostRequest(path, body)
+	if err != nil {
+		t.Fatal(err)
+	}
+	fmt.Printf("response: %s", ret)
+}
 
-	body := `
+func TestSprint(t *testing.T) {
+	path := fmt.Sprintf("/team/%s/items/graphql", apitest.C.TeamUUID)
+	query := `
 	{
-		"query": "mutation %s"
+		sprints{
+				key
+				name 
+				status{
+					uuid
+					name
+					category
+				}
+			}
 	}
 	`
-	body = fmt.Sprintf(body, mutation)
-	fmt.Println(body)
+	body := apitest.BuildGraphqlQuery("query", query)
+	err, ret := apitest.DoPostRequest(path, body)
+	if err != nil {
+		t.Fatal(err)
+	}
+	fmt.Printf("response: %s", ret)
+}
 
+func TestProject(t *testing.T) {
+	path := fmt.Sprintf("/team/%s/items/graphql", apitest.C.TeamUUID)
+	query := `
+	{
+		projects{
+				key
+				name 
+				status{
+					uuid
+					name
+					category
+				}
+			}
+	}
+	`
+	body := apitest.BuildGraphqlQuery("query", query)
 	err, ret := apitest.DoPostRequest(path, body)
 	if err != nil {
 		t.Fatal(err)

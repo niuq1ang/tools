@@ -4,7 +4,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/CodesInvoker/tools/apitest"
+	"github.com/yimadai/tools/apitest"
+)
+
+var (
+	waterfallProjectUUID = "JhWrCvGNDqWa3JvZ"
+	activityChartUUID    = "4FLuyMeH"
 )
 
 func TestActivityChartList(t *testing.T) {
@@ -13,7 +18,7 @@ func TestActivityChartList(t *testing.T) {
 	{
 		activityCharts(
 			filter:{
-				project_in:["D2pLSaJ36RKexu9p"]
+				project_in:["%s"]
 			})
 			{
 			key
@@ -25,9 +30,9 @@ func TestActivityChartList(t *testing.T) {
 				name
 			}
 			}
-
 	}
 	`
+	query = fmt.Sprintf(query, waterfallProjectUUID)
 	body := apitest.BuildGraphqlQuery("query", query)
 	err, ret := apitest.DoPostRequest(path, body)
 	if err != nil {
@@ -41,7 +46,7 @@ func TestUpdateChartOpenDrafting(t *testing.T) {
 	mutation := `
 		{
 			updateActivityChart(
-				key: "activity_chart-TEJwQRGz"
+				key: "activity_chart-%s"
 				drafting: true
 				draft_name: "lalalalal125"
 			)
@@ -52,6 +57,7 @@ func TestUpdateChartOpenDrafting(t *testing.T) {
 			}
 		}
 		`
+	mutation = fmt.Sprintf(mutation, activityChartUUID)
 	body := apitest.BuildGraphqlQuery("mutation", mutation)
 	err, ret := apitest.DoPostRequest(path, body)
 	if err != nil {
@@ -65,7 +71,7 @@ func TestUpdateChartCloseDrafting(t *testing.T) {
 	mutation := `
 		{
 			updateActivityChart(
-				key: "activity_chart-TEJwQRGz"
+				key: "activity_chart-%s"
 				drafting: false
 			)
 			{
@@ -75,6 +81,7 @@ func TestUpdateChartCloseDrafting(t *testing.T) {
 			}
 		}
 		`
+	mutation = fmt.Sprintf(mutation, activityChartUUID)
 	body := apitest.BuildGraphqlQuery("mutation", mutation)
 	err, ret := apitest.DoPostRequest(path, body)
 	if err != nil {
@@ -84,7 +91,7 @@ func TestUpdateChartCloseDrafting(t *testing.T) {
 }
 
 func TestChartPublish(t *testing.T) {
-	path := fmt.Sprintf("/team/%s/project/%s/activity_chart/%s/publish", apitest.C.TeamUUID, "JhWrCvGNK4JGVsOq", "TEJwQRGz")
+	path := fmt.Sprintf("/team/%s/project/%s/activity_chart/%s/publish", apitest.C.TeamUUID, waterfallProjectUUID, activityChartUUID)
 	err, ret := apitest.DoPostRequest(path, "")
 	if err != nil {
 		t.Fatal(err)

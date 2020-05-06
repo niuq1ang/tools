@@ -1,0 +1,5434 @@
+=== RUN   TestListStampDatas
+url: http://localhost:9001/team/K4Cthi6p/stamps/data
+response: {
+  "component_template": {
+    "templates": [
+      {
+        "uuid": "com00000",
+        "team_uuid": "K4Cthi6p",
+        "name": "一级导航",
+        "name_pinyin": "yi1ji2dao3hang2",
+        "desc": "“一级导航”组件是一个空文件夹，您可以自定义其名称及其所含二级导航组件。",
+        "type": 1,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 1,
+        "objects": [],
+        "create_time": 0,
+        "default_views": [],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "com00009",
+        "team_uuid": "K4Cthi6p",
+        "name": "项目概览",
+        "name_pinyin": "xiang4mu4gai4lan3",
+        "desc": "“项目概览”组件展示了当前项目的基本信息以及迭代和工作项的完成情况。",
+        "type": 2,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 2,
+        "objects": [],
+        "create_time": 0,
+        "default_views": [],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "com00004",
+        "team_uuid": "K4Cthi6p",
+        "name": "成员",
+        "name_pinyin": "cheng2yuan2",
+        "desc": "“成员”组件展示了当前项目中的所有成员及其角色构成。",
+        "type": 2,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 2,
+        "objects": [],
+        "create_time": 0,
+        "default_views": [],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "com00005",
+        "team_uuid": "K4Cthi6p",
+        "name": "报表",
+        "name_pinyin": "bao4biao3",
+        "desc": "“报表”组件提供了当前项目的多维度数据统计。",
+        "type": 2,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 2,
+        "objects": [],
+        "create_time": 0,
+        "default_views": [],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "com00006",
+        "team_uuid": "K4Cthi6p",
+        "name": "文档",
+        "name_pinyin": "wen2dang4",
+        "desc": "“文档”组件通过关联 Wiki 页面组的方式，实时同步页面信息。",
+        "type": 2,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 2,
+        "objects": [],
+        "create_time": 0,
+        "default_views": [],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "com00007",
+        "team_uuid": "K4Cthi6p",
+        "name": "迭代",
+        "name_pinyin": "die2dai4",
+        "desc": "“迭代”组件包含了迭代列表、迭代周期、迭代燃尽图、相关工作项列表等内容，是敏捷开发的关键性组件。",
+        "type": 2,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 2,
+        "objects": [],
+        "create_time": 0,
+        "default_views": [],
+        "default_product_component_views": null,
+        "settings": [
+          {
+            "enable": true,
+            "name": "迭代概览",
+            "object": {
+              "type": 2001,
+              "uuid": ""
+            }
+          },
+          {
+            "enable": true,
+            "name": "敏捷看板",
+            "object": {
+              "type": 2002,
+              "uuid": ""
+            }
+          },
+          {
+            "enable": true,
+            "name": "全部工作项",
+            "object": {
+              "type": 2003,
+              "uuid": ""
+            }
+          },
+          {
+            "enable": true,
+            "name": "工作项类型",
+            "object": {
+              "type": 1001,
+              "uuid": "#issueTypes#"
+            }
+          },
+          {
+            "enable": true,
+            "name": "规划",
+            "object": {
+              "type": 2004,
+              "uuid": ""
+            }
+          },
+          {
+            "enable": true,
+            "name": "代码",
+            "object": {
+              "type": 2005,
+              "uuid": ""
+            }
+          },
+          {
+            "enable": true,
+            "name": "质量",
+            "object": {
+              "type": 2006,
+              "uuid": ""
+            }
+          },
+          {
+            "enable": true,
+            "name": "自动化测试",
+            "object": {
+              "type": 2007,
+              "uuid": ""
+            }
+          },
+          {
+            "enable": true,
+            "name": "部署",
+            "object": {
+              "type": 2008,
+              "uuid": ""
+            }
+          }
+        ]
+      },
+      {
+        "uuid": "com00008",
+        "team_uuid": "K4Cthi6p",
+        "name": "筛选器",
+        "name_pinyin": "shai1xuan3qi4",
+        "desc": "“筛选器”组件提供了“全部工作项”、“我负责的”、“我关注的”三个共享视图，是项目不同工作项的汇总。",
+        "type": 2,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 2,
+        "objects": [],
+        "create_time": 0,
+        "default_views": [
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "全部工作项",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field007",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "我负责的",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field004": [
+                              "${currentUser}"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field007",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "${currentUser}"
+                    ]
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "我关注的",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field008": [
+                              "${currentUser}"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field007",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field008",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "${currentUser}"
+                    ]
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          }
+        ],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "com00010",
+        "team_uuid": "K4Cthi6p",
+        "name": "计划",
+        "name_pinyin": "ji4hua4",
+        "desc": "“计划”组件通过列表、详情视图展示多个迭代所处阶段与基本信息，是关注多迭代进度与进行迭代计划的重要功能。",
+        "type": 2,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 2,
+        "objects": [],
+        "create_time": 0,
+        "default_views": [],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "com00011",
+        "team_uuid": "K4Cthi6p",
+        "name": "甘特图",
+        "name_pinyin": "gan1te4tu2",
+        "desc": "“甘特图”组件展示了当前项目下工作项执行顺序、持续时间及进度情况，同时支持规划项目里程碑，是瀑布式项目管理重要组件。",
+        "type": 2,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          },
+          {
+            "permission": "update_component_gantt",
+            "user_domains": [
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 2,
+        "objects": [],
+        "create_time": 0,
+        "default_views": [],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "com00012",
+        "team_uuid": "K4Cthi6p",
+        "name": "自定义链接",
+        "name_pinyin": "zi4ding4yi4lian4jie1",
+        "desc": "“自定义链接”组件可以通过配置URL，点击后跳转到对应网页。",
+        "type": 5,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 1,
+        "objects": [],
+        "create_time": 0,
+        "default_views": [],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "com00014",
+        "team_uuid": "K4Cthi6p",
+        "name": "项目计划",
+        "name_pinyin": "xiang4mu4ji4hua4",
+        "desc": "在项目计划过程中，以可执行的任务为目标，对项目工作进行分解和分组，完成 WBS 过程。 项目计划是制定进度计划、资源需求、成本预算、风险管理计划、采购计划和控制项目变更的基础。",
+        "type": 2,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 5,
+        "objects": [],
+        "create_time": 0,
+        "default_views": [],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "com00015",
+        "team_uuid": "K4Cthi6p",
+        "name": "已拆解任务",
+        "name_pinyin": "yi3chai1jie3ren4wu4",
+        "desc": "列出 WBS 过程中拆解得到的任务，以便于团队成员查看、领取自己负责的任务。",
+        "type": 2,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 5,
+        "objects": [],
+        "create_time": 0,
+        "default_views": [
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "全部已拆解任务",
+            "built_in": true,
+            "include_subtasks": false,
+            "is_fold_all_groups": false,
+            "table_field_settings": null,
+            "board_settings": null,
+            "sort": null,
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.ppm_0010": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.ppm_0013": [
+                          1
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "ppm_0010",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "ppm_0013",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    1
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "ppm_0001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "未开始任务",
+            "built_in": true,
+            "include_subtasks": false,
+            "is_fold_all_groups": false,
+            "table_field_settings": null,
+            "board_settings": null,
+            "sort": null,
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.ppm_0010": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.ppm_0013": [
+                          1
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "equal": {
+                            "field_values.ppm_0008": 0
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "ppm_0010",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "ppm_0013",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "equal"
+                  },
+                  "value": 1
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "ppm_0008",
+                    "operate": {
+                      "label": "filter.addQueryContent.equal",
+                      "operate_id": "equal",
+                      "predicate": "equal"
+                    },
+                    "value": 0
+                  }
+                ]
+              ]
+            },
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "进行中任务",
+            "built_in": true,
+            "include_subtasks": false,
+            "is_fold_all_groups": false,
+            "table_field_settings": null,
+            "board_settings": null,
+            "sort": null,
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.ppm_0010": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.ppm_0013": [
+                          1
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "range": {
+                            "field_values.ppm_0008": {
+                              "gte": 10000,
+                              "lte": 9990000
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "ppm_0010",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "ppm_0013",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "equal"
+                  },
+                  "value": 1
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "ppm_0008",
+                    "operate": {
+                      "label": "filter.addQueryContent.rangeIn",
+                      "operate_id": "rangeIn",
+                      "predicate": "range",
+                      "type": "betweenIn"
+                    },
+                    "value": [
+                      0.1,
+                      99.9
+                    ]
+                  }
+                ]
+              ]
+            },
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "已完成任务",
+            "built_in": true,
+            "include_subtasks": false,
+            "is_fold_all_groups": false,
+            "table_field_settings": null,
+            "board_settings": null,
+            "sort": null,
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.ppm_0010": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.ppm_0013": [
+                          1
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "equal": {
+                            "field_values.ppm_0008": 10000000
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "ppm_0010",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "ppm_0013",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "equal"
+                  },
+                  "value": 1
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "ppm_0008",
+                    "operate": {
+                      "label": "filter.addQueryContent.equal",
+                      "operate_id": "equal",
+                      "predicate": "equal"
+                    },
+                    "value": 100
+                  }
+                ]
+              ]
+            },
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "我负责的任务",
+            "built_in": true,
+            "include_subtasks": false,
+            "is_fold_all_groups": false,
+            "table_field_settings": null,
+            "board_settings": null,
+            "sort": null,
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.ppm_0010": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.ppm_0013": [
+                          1
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.ppm_0004": [
+                              "$currentUser"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "ppm_0010",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "ppm_0013",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "equal"
+                  },
+                  "value": 1
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "ppm_0004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "$currentUser"
+                    ]
+                  }
+                ]
+              ]
+            },
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          }
+        ],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "9t4Z8DKE",
+        "team_uuid": "K4Cthi6p",
+        "name": "iOS缺陷",
+        "name_pinyin": "iOSque1xian4",
+        "desc": "“自定义工作项类型”组件是经由您创建的工作项类型自动生成的，您可以将其放置在一级导航上或二级导航栏内。",
+        "type": 4,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 2,
+        "objects": [
+          {
+            "type": 1001,
+            "uuid": "XyXkuAfp"
+          }
+        ],
+        "create_time": 1541732874,
+        "default_views": [
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "全部iOS缺陷",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "XyXkuAfp"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "XyXkuAfp"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "未开始",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "XyXkuAfp"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "to_do"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "XyXkuAfp"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "to_do"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "进行中",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "XyXkuAfp"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "in_progress"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "XyXkuAfp"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "in_progress"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "已完成",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "XyXkuAfp"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "done"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "XyXkuAfp"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "done"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          }
+        ],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "Fos9oXbA",
+        "team_uuid": "K4Cthi6p",
+        "name": "Web缺陷",
+        "name_pinyin": "Webque1xian4",
+        "desc": "“自定义工作项类型”组件是经由您创建的工作项类型自动生成的，您可以将其放置在一级导航上或二级导航栏内。",
+        "type": 4,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 2,
+        "objects": [
+          {
+            "type": 1001,
+            "uuid": "AjrZ98GC"
+          }
+        ],
+        "create_time": 1541732874,
+        "default_views": [
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "全部Web缺陷",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "AjrZ98GC"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "AjrZ98GC"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "未开始",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "AjrZ98GC"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "to_do"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "AjrZ98GC"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "to_do"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "进行中",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "AjrZ98GC"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "in_progress"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "AjrZ98GC"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "in_progress"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "已完成",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "AjrZ98GC"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "done"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "AjrZ98GC"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "done"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          }
+        ],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "MGCHb91E",
+        "team_uuid": "K4Cthi6p",
+        "name": "Android缺陷",
+        "name_pinyin": "Androidque1xian4",
+        "desc": "“自定义工作项类型”组件是经由您创建的工作项类型自动生成的，您可以将其放置在一级导航上或二级导航栏内。",
+        "type": 4,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 2,
+        "objects": [
+          {
+            "type": 1001,
+            "uuid": "7MHdq8H1"
+          }
+        ],
+        "create_time": 1541732874,
+        "default_views": [
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "全部Android缺陷",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "7MHdq8H1"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "7MHdq8H1"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "未开始",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "7MHdq8H1"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "to_do"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "7MHdq8H1"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "to_do"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "进行中",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "7MHdq8H1"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "in_progress"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "7MHdq8H1"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "in_progress"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "已完成",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "7MHdq8H1"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "done"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "7MHdq8H1"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "done"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          }
+        ],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "TPh4sFWR",
+        "team_uuid": "K4Cthi6p",
+        "name": "应用评论",
+        "name_pinyin": "ying1yong4ping2lun4",
+        "desc": "“自定义工作项类型”组件是经由您创建的工作项类型自动生成的，您可以将其放置在一级导航上或二级导航栏内。",
+        "type": 4,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 2,
+        "objects": [
+          {
+            "type": 1001,
+            "uuid": "RvLk58kP"
+          }
+        ],
+        "create_time": 1541732874,
+        "default_views": [
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "全部应用评论",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "RvLk58kP"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "RvLk58kP"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "未开始",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "RvLk58kP"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "to_do"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "RvLk58kP"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "to_do"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "进行中",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "RvLk58kP"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "in_progress"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "RvLk58kP"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "in_progress"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "已完成",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "RvLk58kP"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "done"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "RvLk58kP"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "done"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          }
+        ],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "XP76dNfn",
+        "team_uuid": "K4Cthi6p",
+        "name": "test",
+        "name_pinyin": "test",
+        "desc": "“自定义工作项类型”组件是经由您创建的工作项类型自动生成的，您可以将其放置在一级导航上或二级导航栏内。",
+        "type": 4,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 2,
+        "objects": [
+          {
+            "type": 1001,
+            "uuid": "TfZ1BCXA"
+          }
+        ],
+        "create_time": 1541732874,
+        "default_views": [
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "全部test",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "TfZ1BCXA"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "TfZ1BCXA"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "未开始",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "TfZ1BCXA"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "to_do"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "TfZ1BCXA"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "to_do"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "进行中",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "TfZ1BCXA"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "in_progress"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "TfZ1BCXA"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "in_progress"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "已完成",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "TfZ1BCXA"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "done"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "TfZ1BCXA"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "done"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          }
+        ],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "com00001",
+        "team_uuid": "K4Cthi6p",
+        "name": "需求",
+        "name_pinyin": "xu1qiu2",
+        "desc": "“需求”组件包含了详细的需求列表，同时包含规划需求、拆分需求、关联工作项等针对性功能。",
+        "type": 3,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 2,
+        "objects": [
+          {
+            "type": 1001,
+            "uuid": "9g9TfHi3"
+          }
+        ],
+        "create_time": 1541732874,
+        "default_views": [
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "全部需求",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "9g9TfHi3"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "9g9TfHi3"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "未开始",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "9g9TfHi3"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "to_do"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "9g9TfHi3"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "to_do"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "进行中",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "9g9TfHi3"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "in_progress"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "9g9TfHi3"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "in_progress"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "已完成",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "9g9TfHi3"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "done"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "9g9TfHi3"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "done"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          }
+        ],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "com00002",
+        "team_uuid": "K4Cthi6p",
+        "name": "缺陷",
+        "name_pinyin": "que1xian4",
+        "desc": "“缺陷”组件包含了详细的缺陷列表，同时包含关联需求等针对性功能。",
+        "type": 3,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 2,
+        "objects": [
+          {
+            "type": 1001,
+            "uuid": "WdBnRUVd"
+          }
+        ],
+        "create_time": 1541732874,
+        "default_views": [
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "全部缺陷",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "WdBnRUVd"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "WdBnRUVd"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "未开始",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "WdBnRUVd"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "to_do"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "WdBnRUVd"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "to_do"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "进行中",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "WdBnRUVd"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "in_progress"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "WdBnRUVd"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "in_progress"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "已完成",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "WdBnRUVd"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "done"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "WdBnRUVd"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "done"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          }
+        ],
+        "default_product_component_views": null,
+        "settings": null
+      },
+      {
+        "uuid": "com00003",
+        "team_uuid": "K4Cthi6p",
+        "name": "任务",
+        "name_pinyin": "ren4wu4",
+        "desc": "“任务”组件包含了详细的任务列表，同时包含关联工作项等针对性功能。",
+        "type": 3,
+        "permissions": [
+          {
+            "permission": "view_component",
+            "user_domains": [
+              {
+                "user_domain_type": "everyone",
+                "user_domain_param": ""
+              },
+              {
+                "user_domain_type": "project_administrators",
+                "user_domain_param": ""
+              }
+            ]
+          }
+        ],
+        "category": 2,
+        "objects": [
+          {
+            "type": 1001,
+            "uuid": "HE8CQMRe"
+          }
+        ],
+        "create_time": 1541732874,
+        "default_views": [
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "全部任务",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "HE8CQMRe"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "HE8CQMRe"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "未开始",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "HE8CQMRe"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "to_do"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "HE8CQMRe"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "to_do"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "进行中",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "HE8CQMRe"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "in_progress"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "HE8CQMRe"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "in_progress"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          },
+          {
+            "layout": "narrow",
+            "group_by": "",
+            "team_uuid": "K4Cthi6p",
+            "name": "已完成",
+            "built_in": true,
+            "include_subtasks": true,
+            "is_fold_all_groups": false,
+            "table_field_settings": [],
+            "board_settings": null,
+            "sort": [
+              {
+                "field_values.field009": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "query": {
+              "must": [
+                {
+                  "must": [
+                    {
+                      "in": {
+                        "field_values.field006": [
+                          "%projectUUID%"
+                        ]
+                      }
+                    },
+                    {
+                      "in": {
+                        "field_values.field007": [
+                          "HE8CQMRe"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "should": [
+                    {
+                      "must": [
+                        {
+                          "in": {
+                            "field_values.field017": [
+                              "done"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "condition": {
+              "lock_conditions": [
+                {
+                  "field_uuid": "field006",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "%projectUUID%"
+                  ]
+                },
+                {
+                  "field_uuid": "field007",
+                  "operate": {
+                    "label": "filter.addQueryContent.include",
+                    "operate_id": "include",
+                    "predicate": "in"
+                  },
+                  "value": [
+                    "HE8CQMRe"
+                  ]
+                }
+              ],
+              "condition_groups": [
+                [
+                  {
+                    "field_uuid": "field001",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "match",
+                      "predicate": "match"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field017",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": [
+                      "done"
+                    ]
+                  },
+                  {
+                    "field_uuid": "field012",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  },
+                  {
+                    "field_uuid": "field004",
+                    "operate": {
+                      "label": "filter.addQueryContent.include",
+                      "operate_id": "include",
+                      "predicate": "in"
+                    },
+                    "value": null
+                  }
+                ]
+              ]
+            },
+            "display_type": "sub_tree",
+            "is_show_derive": false,
+            "shared": false,
+            "shared_to": null
+          }
+        ],
+        "default_product_component_views": null,
+        "settings": null
+      }
+    ],
+    "server_update_stamp": 1587121038261520
+  }
+}
+
+--- PASS: TestListStampDatas (0.04s)
+PASS
+ok  	github.com/yimadai/tools/apitest/stamp	0.555s
